@@ -11,7 +11,7 @@ server.use(express.json());
 
 // Configuración de CORS
 const corsOptions = {
-  origin: ['https://n23design.vercel.app/'], // Dominios permitidos
+  origin: ['https://n23design.vercel.app'], // Dominios permitidos
   methods: ['GET', 'POST'], // Métodos permitidos
   allowedHeaders: ['Content-Type', 'Authorization'], // Encabezados permitidos
 };
